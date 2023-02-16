@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { ReactNode } from "react";
 import SpyIcon from "./icons/SpyIcon";
 import Title from "./components/shared/Title";
+import colors from "./colors/colors";
 
 export default function Header() {
   return (
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
   header: {
     display: "flex",
     flexDirection: "row",
-    alignContent: "center",
+    alignItems: 'center',
     marginBottom: 16,
   },
   icon: {

@@ -2,7 +2,10 @@
 
 const colors: Record<string, string> = {
   white: '#FFFFFF',
-  main: '#2300AE'
+  main: '#2300AE',
+  accent: '#2d5572',
+  // accent: '#A2B7C7',
+  gray: '#3b3b3b'
 };
 
 export default colors;

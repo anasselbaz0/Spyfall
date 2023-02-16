@@ -8,7 +8,7 @@ interface IconProps {
 
 const SpyIcon = (props: SvgProps & IconProps) => (
   <Svg
-    fill="#1c1c1c"
+    fill="#ffffff"
     viewBox="0 0 32 32"
     {...props}
   >

@@ -1,5 +1,6 @@
 import { Text } from "react-native";
 import { ReactNode } from "react";
+import colors from "../../colors/colors";
 
 interface TitleProps {
   children: ReactNode | ReactNode[],
@@ -8,7 +9,7 @@ interface TitleProps {
 
 export default function Title(props: TitleProps) {
   const titleStyle = {
-    color: props.color ?? '#1c1c1c',
+    color: props.color ?? colors.white,
     fontSize: 24,
     fontWeight: '600',
   };
